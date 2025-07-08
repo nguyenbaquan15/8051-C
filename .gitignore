@@ -1,4 +1,7 @@
 .vs
-.hex
-.lnp
-.plg
+*.M51
+*.htm
+*.hex
+*.lnp
+*.LST
+*.OBJ
