@@ -1,8 +1,4 @@
 .vs
-bin
-obj
-Release
-Debug
-packages
-config.ini
-logs
+.hex
+.lnp
+.plg
