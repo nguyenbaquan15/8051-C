@@ -5,3 +5,5 @@
 *.lnp
 *.LST
 *.OBJ
+Objects/*
+Listings/*
