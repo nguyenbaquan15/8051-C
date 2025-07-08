@@ -1,0 +1,8 @@
+.vs
+bin
+obj
+Release
+Debug
+packages
+config.ini
+logs
