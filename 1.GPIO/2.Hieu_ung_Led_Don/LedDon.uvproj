@@ -324,7 +324,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\Libraries\inc</IncludePath>
+              <IncludePath>..\..\Libraries\inc</IncludePath>
             </VariousControls>
           </C51>
           <Ax51>
@@ -387,14 +387,24 @@
           <GroupName>lib</GroupName>
           <Files>
             <File>
+              <FileName>delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\Libraries\inc\delay.h</FilePath>
+            </File>
+            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Libraries\src\delay.c</FilePath>
+              <FilePath>..\..\Libraries\src\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>led_don.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\Libraries\inc\led_don.h</FilePath>
             </File>
             <File>
               <FileName>led_don.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Libraries\src\led_don.c</FilePath>
+              <FilePath>..\..\Libraries\src\led_don.c</FilePath>
             </File>
           </Files>
         </Group>

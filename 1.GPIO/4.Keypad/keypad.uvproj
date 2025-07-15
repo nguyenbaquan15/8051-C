@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>LedDon</TargetName>
+      <TargetName>keypad</TargetName>
       <ToolsetNumber>0x0</ToolsetNumber>
       <ToolsetName>MCS-51</ToolsetName>
       <uAC6>8</uAC6>
@@ -46,7 +46,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>OrBit</OutputName>
+          <OutputName>execute</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -324,7 +324,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\Libraries\inc</IncludePath>
+              <IncludePath>..\..\Libraries\inc</IncludePath>
             </VariousControls>
           </C51>
           <Ax51>
@@ -389,12 +389,12 @@
             <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Libraries\src\delay.c</FilePath>
+              <FilePath>..\..\Libraries\src\delay.c</FilePath>
             </File>
             <File>
               <FileName>led_don.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Libraries\src\led_don.c</FilePath>
+              <FilePath>..\..\Libraries\src\led_don.c</FilePath>
             </File>
           </Files>
         </Group>
